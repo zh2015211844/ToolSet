@@ -1,0 +1,14 @@
+资源编译工具
+把任意的文件编译成 C语言二进制数组代码，作为静态资源
+
+输入命令行格式: res -i infile infile2 -o outfile
+
+    -i :指示后面是输入文件
+    -o :指示后面是输出文件
+    
+输出文件格式：
+    outfile.c
+        // from infile
+        char infile[]={0x00,0x01,0x02};
+        // from infile2
+        char infile2[]={0x00,0x01,0x02};
