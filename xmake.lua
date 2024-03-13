@@ -4,7 +4,7 @@ if (is_mode("debug")) then
     add_defines("_Tool_debug")
 end
 set_languages("c99", "c++17")
-includes("ResToBin","TslLang")
+includes("ResToBin","TslLang","i18n","i18nLoader")
 
 --
 -- If you want to known more usage about xmake, please see https://xmake.io
