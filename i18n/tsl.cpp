@@ -377,8 +377,8 @@ bool ParserTxt(const string &path, const string &txt)
             break;
         }
         SkipBlank(index, size, data);
-        if (index >= size)
-            break;
+        /*if (index >= size)
+            break;*/
         // 强制分配枚举值
         if (force_flg == true)
             item.mEnum = 0;
